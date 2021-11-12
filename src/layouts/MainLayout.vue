@@ -8,9 +8,9 @@
         <q-toolbar-title class="text-weight-bold">
           <span class="gt-sm">meower</span>
       <q-icon 
-        class = "q-pa-md lt-md"
+        class = "header-icon q-pa-md lt-md"
         name="fas fa-cat" 
-        size = "lg"
+        size = "md"
         color = "white"
       />
         </q-toolbar-title>
@@ -137,3 +137,11 @@ export default {
   }
 }
 </script>
+
+<style lang="sass">
+.header-icon 
+  position: relative
+  bottom: 0 
+  left: 50%
+  transform: translateX(-80%)
+</style>
