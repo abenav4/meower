@@ -93,8 +93,8 @@
       
       <q-item class="q-pa-md">
         <q-item-section>
-          <q-item-label overline class= "text-grey">politics</q-item-label>
-          <q-item-label class = "text-weight-bold">The Bourgeois party wins another election</q-item-label>
+          <q-item-label overline class= "text-grey">economics</q-item-label>
+          <q-item-label class = "text-weight-bold">Millionaire wins Nobel Prize with research on minimum wage</q-item-label>
           <q-item-label caption>Secondary line text. Lorem ipsum dolor sit amet, consectetur adipiscit elit.</q-item-label>
         </q-item-section>
 
