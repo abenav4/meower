@@ -1,0 +1,88 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.itemContainer input {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+ button:hover {
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.item {
+  height: 80px;
+  border: 1px solid black;
+  margin: 6px;
+  display: flex;
+  width:auto;
+  font-family: 'Courier New', Courier, monospace
+
+}
+
+.item h3 {
+  margin: 30px;
+}
+
+.deletedButton {
+  margin:6px;;
+}
+
+#deletedText {
+  font-family: 'Courier New', Courier, monospace
+}
+
+.smallButton {
+  padding: -5px;
+  height: 20px;
+  width: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display:flex;
+}
+
+.mediumButton {
+  margin-right: 28px;
+  height: 45px;
+  width: 80px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display:flex;
+}
+
+.centeredDiv {
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display:flex;
+}
